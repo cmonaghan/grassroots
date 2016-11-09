@@ -1,0 +1,27 @@
+{
+  "name": "grassroots",
+  "version": "0.0.1",
+  "description": "A platform to connect people with their elected representatives.",
+  "main": "server/app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "debug": "node debug server/app.js",
+    "test": "echo 'write some tests!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmonaghan/grassroots.git"
+  },
+  "author": "Christian Monaghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmonaghan/grassroots/issues"
+  },
+  "homepage": "https://github.com/cmonaghan/grassroots#readme"
+}
